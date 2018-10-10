@@ -1,0 +1,19 @@
+public class judgeone {
+public static void main(String[] args) {
+	int m=78;
+	if(m>=90) {
+		System.out.println("优秀");
+	}
+	else if(m>=80) {
+		System.out.println("良好");
+	}
+	else if(m>=60) {
+		System.out.println("及格");
+	}
+	else {
+		System.out.println("不及格");
+	}
+	
+}
+}
+

@@ -1,0 +1,36 @@
+public class Judge {
+public static void main (String [] args)
+{
+int a = 5;
+int b = 2;
+int c = 4;
+String questionone = ((a > b)&&(c == a))? "true" : "false";
+System.out.println("answerone: "+questionone);
+String questiontwo = (false || (b < a))? "true" : "false";
+System.out.println("answertwo: "+questiontwo);
+}
+}
+
+
+public class SroceJudge {
+	public static void main(String [] args){
+		int grade = 78;
+		if(grade>= 60) {
+			if(grade>=80) {
+				if(grade>=90) { 
+					System.out.println("成绩优秀");
+				}
+				else { 
+					System.out.println("成绩良好");
+				}
+			}
+				else { 
+					System.out.println("成绩及格");
+				}
+		}
+				else {
+					System.out.println("需要补考");
+				}
+			}
+		
+	}
