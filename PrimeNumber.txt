@@ -1,0 +1,14 @@
+public class PrimeNumber {
+public static void main(String[] args) {
+	int number=4549;
+	for( int i=1;i<=number-1;number++) {
+		if(number%i ==0) {//判断是否为质数
+			System.out.println("该数不是质数" +number);
+			break;
+		}
+		else {
+			System.out.println("该数是质数：" +number);
+		}
+	}
+}
+}
