@@ -1,0 +1,24 @@
+public class PrintScore {
+    public static void main(String[] args) {
+    	PrintScore a = new PrintScore();
+    	//创建对象a
+    	int rSum;
+    	//接受返回值,一定要有返回代码和接受代码。不写程序不能执行
+    	rSum = a.calcSum(78,99);
+    	//调取calcSum的值，同时给两个科目赋值
+    	System.out.println("totalPoints: " +rSum);
+    	/*创建一个方法体
+    	 * 接收返回的值
+    	 * rSum = a.calcSum(78.99)
+    	 * 提取的只是运算代码，
+    	 */
+    }
+    	public int calcSum(int math, int chinese) {
+    		int sum = math + chinese;
+    		return sum;
+    		/*方法的作用是解决特定问题的代码组合。
+    		 * 将学科作为参数，在方法体中写出解决这类问题的方法
+    		 * 要返回方法体中创立的sum。
+    		 */
+    }
+}
