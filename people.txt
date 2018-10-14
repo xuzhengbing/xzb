@@ -1,0 +1,16 @@
+public class People {
+	//访问修饰符private表示私有，变为私有后必须通过方法调用
+	//私有的好处是防止别人随意调用，提高代码的安全性
+	    private double height; 
+	//属性就封装好了，如果要调用属性就得通过getter和setter进行调用
+	    public double getHeight(){        
+	//getter是为了得到属性值。命名是get加属性名，属性名首字母要大写
+	        return height;
+	    }
+	//setter命名是set关键字加属性名，同样首字母要大写
+	//setter是给属性值赋值，所以得要个参数才行
+	    public void setHeight(double newHeight){
+	        height = newHeight;
+}
+}
+
